@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ef30b23b2586041aedf18c9486176d, type: 3}
+  m_Name: AppCenterSettings
+  m_EditorClassIdentifier: 
+  iOSAppSecret: f3325de8-69fb-43f8-9177-1c9d5e673fc3
+  AndroidAppSecret: 0e88528e-e388-4751-af23-972aaeb7877b
+  UWPAppSecret: 83d70a4d-d002-4d75-9358-73894c5e80ec
+  UseAnalytics: 1
+  UseCrashes: 1
+  UseDistribute: 1
+  CustomApiUrl:
+    UrlName: API
+    UseCustomUrl: 0
+    Url: 
+  CustomInstallUrl:
+    UrlName: Install
+    UseCustomUrl: 0
+    Url: 
+  UsePush: 1
+  EnableFirebaseAnalytics: 0
+  InitialLogLevel: 2
+  CustomLogUrl:
+    UrlName: Log
+    UseCustomUrl: 0
+    Url: 
+  SenderId: 
+  MaxStorageSize:
+    UseCustomMaxStorageSize: 1
+    Size: 30000000
